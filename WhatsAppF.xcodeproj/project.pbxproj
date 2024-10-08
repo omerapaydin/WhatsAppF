@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FFDFB0102CB5C0B9003B7CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFDFAFF12CB5C0B8003B7CB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDFAFF82CB5C0B8003B7CB5;
+			remoteInfo = WhatsAppF;
+		};
+		FFDFB01A2CB5C0B9003B7CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFDFAFF12CB5C0B8003B7CB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDFAFF82CB5C0B8003B7CB5;
+			remoteInfo = WhatsAppF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFDFAFF92CB5C0B8003B7CB5 /* WhatsAppF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDFB00F2CB5C0B9003B7CB5 /* WhatsAppFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAppFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDFB0192CB5C0B9003B7CB5 /* WhatsAppFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAppFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FFDFB0212CB5C0B9003B7CB5 /* Exceptions for "WhatsAppF" folder in "WhatsAppF" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FFDFAFF82CB5C0B8003B7CB5 /* WhatsAppF */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FFDFAFFB2CB5C0B8003B7CB5 /* WhatsAppF */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FFDFB0212CB5C0B9003B7CB5 /* Exceptions for "WhatsAppF" folder in "WhatsAppF" target */,
+			);
+			path = WhatsAppF;
+			sourceTree = "<group>";
+		};
+		FFDFB0122CB5C0B9003B7CB5 /* WhatsAppFTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WhatsAppFTests;
+			sourceTree = "<group>";
+		};
+		FFDFB01C2CB5C0B9003B7CB5 /* WhatsAppFUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WhatsAppFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDFAFF62CB5C0B8003B7CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDFB00C2CB5C0B9003B7CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDFB0162CB5C0B9003B7CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDFAFF02CB5C0B8003B7CB5 = {
+			isa = PBXGroup;
+			children = (
+				FFDFAFFB2CB5C0B8003B7CB5 /* WhatsAppF */,
+				FFDFB0122CB5C0B9003B7CB5 /* WhatsAppFTests */,
+				FFDFB01C2CB5C0B9003B7CB5 /* WhatsAppFUITests */,
+				FFDFAFFA2CB5C0B8003B7CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDFAFFA2CB5C0B8003B7CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDFAFF92CB5C0B8003B7CB5 /* WhatsAppF.app */,
+				FFDFB00F2CB5C0B9003B7CB5 /* WhatsAppFTests.xctest */,
+				FFDFB0192CB5C0B9003B7CB5 /* WhatsAppFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDFAFF82CB5C0B8003B7CB5 /* WhatsAppF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDFB0222CB5C0B9003B7CB5 /* Build configuration list for PBXNativeTarget "WhatsAppF" */;
+			buildPhases = (
+				FFDFAFF52CB5C0B8003B7CB5 /* Sources */,
+				FFDFAFF62CB5C0B8003B7CB5 /* Frameworks */,
+				FFDFAFF72CB5C0B8003B7CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FFDFAFFB2CB5C0B8003B7CB5 /* WhatsAppF */,
+			);
+			name = WhatsAppF;
+			packageProductDependencies = (
+			);
+			productName = WhatsAppF;
+			productReference = FFDFAFF92CB5C0B8003B7CB5 /* WhatsAppF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFDFB00E2CB5C0B9003B7CB5 /* WhatsAppFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDFB0272CB5C0B9003B7CB5 /* Build configuration list for PBXNativeTarget "WhatsAppFTests" */;
+			buildPhases = (
+				FFDFB00B2CB5C0B9003B7CB5 /* Sources */,
+				FFDFB00C2CB5C0B9003B7CB5 /* Frameworks */,
+				FFDFB00D2CB5C0B9003B7CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDFB0112CB5C0B9003B7CB5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FFDFB0122CB5C0B9003B7CB5 /* WhatsAppFTests */,
+			);
+			name = WhatsAppFTests;
+			packageProductDependencies = (
+			);
+			productName = WhatsAppFTests;
+			productReference = FFDFB00F2CB5C0B9003B7CB5 /* WhatsAppFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFDFB0182CB5C0B9003B7CB5 /* WhatsAppFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDFB02A2CB5C0B9003B7CB5 /* Build configuration list for PBXNativeTarget "WhatsAppFUITests" */;
+			buildPhases = (
+				FFDFB0152CB5C0B9003B7CB5 /* Sources */,
+				FFDFB0162CB5C0B9003B7CB5 /* Frameworks */,
+				FFDFB0172CB5C0B9003B7CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDFB01B2CB5C0B9003B7CB5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FFDFB01C2CB5C0B9003B7CB5 /* WhatsAppFUITests */,
+			);
+			name = WhatsAppFUITests;
+			packageProductDependencies = (
+			);
+			productName = WhatsAppFUITests;
+			productReference = FFDFB0192CB5C0B9003B7CB5 /* WhatsAppFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDFAFF12CB5C0B8003B7CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FFDFAFF82CB5C0B8003B7CB5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					FFDFB00E2CB5C0B9003B7CB5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FFDFAFF82CB5C0B8003B7CB5;
+					};
+					FFDFB0182CB5C0B9003B7CB5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FFDFAFF82CB5C0B8003B7CB5;
+					};
+				};
+			};
+			buildConfigurationList = FFDFAFF42CB5C0B8003B7CB5 /* Build configuration list for PBXProject "WhatsAppF" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDFAFF02CB5C0B8003B7CB5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FFDFAFFA2CB5C0B8003B7CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDFAFF82CB5C0B8003B7CB5 /* WhatsAppF */,
+				FFDFB00E2CB5C0B9003B7CB5 /* WhatsAppFTests */,
+				FFDFB0182CB5C0B9003B7CB5 /* WhatsAppFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDFAFF72CB5C0B8003B7CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDFB00D2CB5C0B9003B7CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDFB0172CB5C0B9003B7CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDFAFF52CB5C0B8003B7CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDFB00B2CB5C0B9003B7CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDFB0152CB5C0B9003B7CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFDFB0112CB5C0B9003B7CB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFDFAFF82CB5C0B8003B7CB5 /* WhatsAppF */;
+			targetProxy = FFDFB0102CB5C0B9003B7CB5 /* PBXContainerItemProxy */;
+		};
+		FFDFB01B2CB5C0B9003B7CB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFDFAFF82CB5C0B8003B7CB5 /* WhatsAppF */;
+			targetProxy = FFDFB01A2CB5C0B9003B7CB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFDFB0232CB5C0B9003B7CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsAppF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.WhatsAppF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDFB0242CB5C0B9003B7CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsAppF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.WhatsAppF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFDFB0252CB5C0B9003B7CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFDFB0262CB5C0B9003B7CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDFB0282CB5C0B9003B7CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.WhatsAppFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsAppF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsAppF";
+			};
+			name = Debug;
+		};
+		FFDFB0292CB5C0B9003B7CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.WhatsAppFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsAppF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsAppF";
+			};
+			name = Release;
+		};
+		FFDFB02B2CB5C0B9003B7CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.WhatsAppFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsAppF;
+			};
+			name = Debug;
+		};
+		FFDFB02C2CB5C0B9003B7CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerapaydin.WhatsAppFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsAppF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDFAFF42CB5C0B8003B7CB5 /* Build configuration list for PBXProject "WhatsAppF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDFB0252CB5C0B9003B7CB5 /* Debug */,
+				FFDFB0262CB5C0B9003B7CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDFB0222CB5C0B9003B7CB5 /* Build configuration list for PBXNativeTarget "WhatsAppF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDFB0232CB5C0B9003B7CB5 /* Debug */,
+				FFDFB0242CB5C0B9003B7CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDFB0272CB5C0B9003B7CB5 /* Build configuration list for PBXNativeTarget "WhatsAppFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDFB0282CB5C0B9003B7CB5 /* Debug */,
+				FFDFB0292CB5C0B9003B7CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDFB02A2CB5C0B9003B7CB5 /* Build configuration list for PBXNativeTarget "WhatsAppFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDFB02B2CB5C0B9003B7CB5 /* Debug */,
+				FFDFB02C2CB5C0B9003B7CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDFAFF12CB5C0B8003B7CB5 /* Project object */;
+}
